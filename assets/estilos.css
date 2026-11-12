@@ -1,0 +1,27 @@
+.vm-hero {
+    padding: 2.2rem 2rem;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #7C3AED 0%, #DB2777 100%);
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.vm-hero h1 { margin: 0 0 .3rem 0; font-size: 2.6rem; }
+.vm-hero p  { margin: 0; font-size: 1.1rem; opacity: .95; }
+
+.vm-card {
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    background: #1B1533;
+    border: 1px solid #2E2552;
+}
+.vm-pregunta {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    background: #1B1533;
+    border-left: 6px solid #A855F7;
+    margin-bottom: 1rem;
+}
+.vm-ok  { color: #4ADE80; font-weight: 700; }
+.vm-mal { color: #F87171; font-weight: 700; }

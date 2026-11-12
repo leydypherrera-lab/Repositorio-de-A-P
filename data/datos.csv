@@ -1,0 +1,140 @@
+id,titulo,artista,genero,anio,decada
+1,Hoochie Coochie Man,Muddy Waters,Blues,1954,1950s
+2,I Walk the Line,Johnny Cash,Country,1956,1950s
+3,So What,Miles Davis,Jazz,1959,1950s
+4,Take Five,The Dave Brubeck Quartet,Jazz,1959,1950s
+5,Blowin' in the Wind,Bob Dylan,Folk,1963,1960s
+6,Ring of Fire,Johnny Cash,Country,1963,1960s
+7,A Change Is Gonna Come,Sam Cooke,Soul,1964,1960s
+8,Fly Me to the Moon,Frank Sinatra,Jazz,1964,1960s
+9,The Girl from Ipanema,Stan Getz & João Gilberto,Jazz,1964,1960s
+10,The Sound of Silence,Simon & Garfunkel,Folk,1964,1960s
+11,(I Can't Get No) Satisfaction,The Rolling Stones,Rock,1965,1960s
+12,Paint It Black,The Rolling Stones,Rock,1966,1960s
+13,Respect,Aretha Franklin,Soul,1967,1960s
+14,What a Wonderful World,Louis Armstrong,Jazz,1967,1960s
+15,Crossroads,Cream,Blues,1968,1960s
+16,Hey Jude,The Beatles,Rock,1968,1960s
+17,Space Oddity,David Bowie,Rock,1969,1960s
+18,The Thrill Is Gone,B.B. King,Blues,1969,1960s
+19,Let It Be,The Beatles,Rock,1970,1970s
+20,Paranoid,Black Sabbath,Metal,1970,1970s
+21,Ain't No Sunshine,Bill Withers,Soul,1971,1970s
+22,Imagine,John Lennon,Rock,1971,1970s
+23,"Take Me Home, Country Roads",John Denver,Country,1971,1970s
+24,What's Going On,Marvin Gaye,Soul,1971,1970s
+25,Lean on Me,Bill Withers,Soul,1972,1970s
+26,Let's Stay Together,Al Green,Soul,1972,1970s
+27,Superstition,Stevie Wonder,Funk,1972,1970s
+28,Dream On,Aerosmith,Rock,1973,1970s
+29,Jolene,Dolly Parton,Country,1973,1970s
+30,"No Woman, No Cry",Bob Marley & The Wailers,Reggae,1974,1970s
+31,Bohemian Rhapsody,Queen,Rock,1975,1970s
+32,Born to Run,Bruce Springsteen,Rock,1975,1970s
+33,Blitzkrieg Bop,Ramones,Punk,1976,1970s
+34,Dancing Queen,ABBA,Disco,1976,1970s
+35,Hotel California,Eagles,Rock,1976,1970s
+36,Heroes,David Bowie,Rock,1977,1970s
+37,Stayin' Alive,Bee Gees,Disco,1977,1970s
+38,Three Little Birds,Bob Marley & The Wailers,Reggae,1977,1970s
+39,I Will Survive,Gloria Gaynor,Disco,1978,1970s
+40,Last Dance,Donna Summer,Disco,1978,1970s
+41,Le Freak,Chic,Disco,1978,1970s
+42,September,"Earth, Wind & Fire",Funk,1978,1970s
+43,Another Brick in the Wall,Pink Floyd,Rock,1979,1970s
+44,Comfortably Numb,Pink Floyd,Rock,1979,1970s
+45,Highway to Hell,AC/DC,Rock,1979,1970s
+46,London Calling,The Clash,Punk,1979,1970s
+47,Rapper's Delight,The Sugarhill Gang,Hip-Hop,1979,1970s
+48,Back in Black,AC/DC,Rock,1980,1980s
+49,Breaking the Law,Judas Priest,Metal,1980,1980s
+50,Could You Be Loved,Bob Marley & The Wailers,Reggae,1980,1980s
+51,Redemption Song,Bob Marley & The Wailers,Reggae,1980,1980s
+52,Don't Stop Believin',Journey,Rock,1981,1980s
+53,Run to the Hills,Iron Maiden,Metal,1982,1980s
+54,Thriller,Michael Jackson,Pop,1982,1980s
+55,Billie Jean,Michael Jackson,Pop,1983,1980s
+56,Girls Just Want to Have Fun,Cyndi Lauper,Pop,1983,1980s
+57,Pride and Joy,Stevie Ray Vaughan,Blues,1983,1980s
+58,Purple Rain,Prince,Rock,1984,1980s
+59,Kiss,Prince,Funk,1986,1980s
+60,Livin' on a Prayer,Bon Jovi,Rock,1986,1980s
+61,Master of Puppets,Metallica,Metal,1986,1980s
+62,I Wanna Dance with Somebody,Whitney Houston,Pop,1987,1980s
+63,Sweet Child O' Mine,Guns N' Roses,Rock,1987,1980s
+64,Fast Car,Tracy Chapman,Folk,1988,1980s
+65,Like a Prayer,Madonna,Pop,1989,1980s
+66,Friends in Low Places,Garth Brooks,Country,1990,1990s
+67,Enter Sandman,Metallica,Metal,1991,1990s
+68,Smells Like Teen Spirit,Nirvana,Alternative,1991,1990s
+69,Under the Bridge,Red Hot Chili Peppers,Rock,1991,1990s
+70,Come as You Are,Nirvana,Alternative,1992,1990s
+71,Creep,Radiohead,Alternative,1992,1990s
+72,I Will Always Love You,Whitney Houston,R&B,1992,1990s
+73,Basket Case,Green Day,Punk,1994,1990s
+74,Juicy,The Notorious B.I.G.,Hip-Hop,1994,1990s
+75,N.Y. State of Mind,Nas,Hip-Hop,1994,1990s
+76,Zombie,The Cranberries,Alternative,1994,1990s
+77,California Love,2Pac ft. Dr. Dre,Hip-Hop,1995,1990s
+78,Wonderwall,Oasis,Rock,1995,1990s
+79,Around the World,Daft Punk,Electronic,1997,1990s
+80,...Baby One More Time,Britney Spears,Pop,1998,1990s
+81,No Scrubs,TLC,R&B,1999,1990s
+82,One More Time,Daft Punk,Electronic,2000,2000s
+83,Stan,Eminem,Hip-Hop,2000,2000s
+84,Yellow,Coldplay,Alternative,2000,2000s
+85,Chop Suey!,System of a Down,Metal,2001,2000s
+86,Lose Yourself,Eminem,Hip-Hop,2002,2000s
+87,Crazy in Love,Beyoncé,R&B,2003,2000s
+88,In da Club,50 Cent,Hip-Hop,2003,2000s
+89,Mr. Brightside,The Killers,Rock,2003,2000s
+90,Seven Nation Army,The White Stripes,Rock,2003,2000s
+91,Toxic,Britney Spears,Pop,2003,2000s
+92,American Idiot,Green Day,Punk,2004,2000s
+93,Ordinary People,John Legend,R&B,2004,2000s
+94,Gold Digger,Kanye West,Hip-Hop,2005,2000s
+95,Before He Cheats,Carrie Underwood,Country,2006,2000s
+96,Electric Feel,MGMT,Indie,2007,2000s
+97,Skinny Love,Bon Iver,Folk,2007,2000s
+98,Stronger,Kanye West,Hip-Hop,2007,2000s
+99,Halo,Beyoncé,R&B,2008,2000s
+100,You Belong with Me,Taylor Swift,Country,2008,2000s
+101,Empire State of Mind,Jay-Z ft. Alicia Keys,Hip-Hop,2009,2000s
+102,Strobe,deadmau5,Electronic,2009,2000s
+103,Firework,Katy Perry,Pop,2010,2010s
+104,Just the Way You Are,Bruno Mars,Pop,2010,2010s
+105,Pumped Up Kicks,Foster the People,Indie,2010,2010s
+106,Rolling in the Deep,Adele,Pop,2010,2010s
+107,Scary Monsters and Nice Sprites,Skrillex,Electronic,2010,2010s
+108,Levels,Avicii,Electronic,2011,2010s
+109,Little Talks,Of Monsters and Men,Indie,2011,2010s
+110,Someone Like You,Adele,Pop,2011,2010s
+111,Titanium,David Guetta ft. Sia,Electronic,2011,2010s
+112,Clarity,Zedd ft. Foxes,Electronic,2012,2010s
+113,Radioactive,Imagine Dragons,Rock,2012,2010s
+114,Do I Wanna Know?,Arctic Monkeys,Indie,2013,2010s
+115,Get Lucky,Daft Punk ft. Pharrell Williams,Electronic,2013,2010s
+116,Happy,Pharrell Williams,Pop,2013,2010s
+117,Roar,Katy Perry,Pop,2013,2010s
+118,Take Me to Church,Hozier,Indie,2013,2010s
+119,Wake Me Up,Avicii,Electronic,2013,2010s
+120,Blank Space,Taylor Swift,Pop,2014,2010s
+121,Shake It Off,Taylor Swift,Pop,2014,2010s
+122,Uptown Funk,Mark Ronson ft. Bruno Mars,Funk,2014,2010s
+123,Alright,Kendrick Lamar,Hip-Hop,2015,2010s
+124,Hotline Bling,Drake,Hip-Hop,2015,2010s
+125,Tennessee Whiskey,Chris Stapleton,Country,2015,2010s
+126,Redbone,Childish Gambino,R&B,2016,2010s
+127,HUMBLE.,Kendrick Lamar,Hip-Hop,2017,2010s
+128,Perfect,Ed Sheeran,Pop,2017,2010s
+129,Shape of You,Ed Sheeran,Pop,2017,2010s
+130,God's Plan,Drake,Hip-Hop,2018,2010s
+131,SICKO MODE,Travis Scott,Hip-Hop,2018,2010s
+132,Bad Guy,Billie Eilish,Pop,2019,2010s
+133,Blinding Lights,The Weeknd,Pop,2019,2010s
+134,Old Town Road,Lil Nas X,Hip-Hop,2019,2010s
+135,Levitating,Dua Lipa,Pop,2020,2020s
+136,drivers license,Olivia Rodrigo,Pop,2021,2020s
+137,Anti-Hero,Taylor Swift,Pop,2022,2020s
+138,As It Was,Harry Styles,Pop,2022,2020s
+139,Flowers,Miley Cyrus,Pop,2023,2020s
