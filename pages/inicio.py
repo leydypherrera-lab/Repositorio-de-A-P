@@ -1,4 +1,3 @@
-
 import streamlit as st
 import base64
 import mimetypes
@@ -9,7 +8,7 @@ from src.data import buscar_imagen, cargar_datos, resumen
 df = cargar_datos()
 r = resumen(df)
 
-#Diseño
+# Diseño
 
 st.markdown("""
 <style>
@@ -162,38 +161,29 @@ hr {
 # LOGO Y ENCABEZADO
 # ---------------------------------
 
-logo = """
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="vmgrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f05cff"/>
-      <stop offset="100%" stop-color="#6947ff"/>
-    </linearGradient>
-  </defs>
-  <path d="M18 55 V42 A32 32 0 0 1 82 42 V55"
-        fill="none" stroke="url(#vmgrad)"
-        stroke-width="8" stroke-linecap="round"/>
-  <rect x="8" y="48" width="15" height="30" rx="7"
-        fill="url(#vmgrad)"/>
-  <rect x="77" y="48" width="15" height="30" rx="7"
-        fill="url(#vmgrad)"/>
-  <path d="M48 25 V68 L69 58 V15 L48 25"
-        fill="url(#vmgrad)"/>
-  <path d="M36 77 Q50 87 64 77"
-        fill="none" stroke="#d98aff"
-        stroke-width="4" stroke-linecap="round"/>
-</svg>
-"""
+logo = """<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="vmgrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#f05cff"/>
+<stop offset="100%" stop-color="#6947ff"/>
+</linearGradient>
+</defs>
+<path d="M18 55 V42 A32 32 0 0 1 82 42 V55" fill="none" stroke="url(#vmgrad)" stroke-width="8" stroke-linecap="round"/>
+<rect x="8" y="48" width="15" height="30" rx="7" fill="url(#vmgrad)"/>
+<rect x="77" y="48" width="15" height="30" rx="7" fill="url(#vmgrad)"/>
+<path d="M48 25 V68 L69 58 V15 L48 25" fill="url(#vmgrad)"/>
+<path d="M36 77 Q50 87 64 77" fill="none" stroke="#d98aff" stroke-width="4" stroke-linecap="round"/>
+</svg>"""
 
 st.markdown(f"""
 <div class="vm-hero">
-    <div class="vm-logo">
-        {logo}
-        <div>
-            <h1>Vibra <span>Musical</span></h1>
-            <p>Explora, descubre y juega con canciones en inglés de todos los géneros.</p>
-        </div>
-    </div>
+<div class="vm-logo">
+{logo}
+<div>
+<h1>Vibra <span>Musical</span></h1>
+<p>Explora, descubre y juega con canciones en inglés de todos los géneros.</p>
+</div>
+</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -221,27 +211,27 @@ a, b, c = st.columns(3)
 
 with a:
     st.markdown("""
-    <div class="vm-card">
-        <b>🔎 Explorar</b>
-        <p>Filtra canciones por género, año o artista y descubre gráficos.</p>
-    </div>
-    """, unsafe_allow_html=True)
+<div class="vm-card">
+<b>🔎 Explorar</b>
+<p>Filtra canciones por género, año o artista y descubre gráficos.</p>
+</div>
+""", unsafe_allow_html=True)
 
 with b:
     st.markdown("""
-    <div class="vm-card">
-        <b>🎮 Jugar</b>
-        <p>Demuestra tus conocimientos adivinando el género y la década.</p>
-    </div>
-    """, unsafe_allow_html=True)
+<div class="vm-card">
+<b>🎮 Jugar</b>
+<p>Demuestra tus conocimientos adivinando el género y la década.</p>
+</div>
+""", unsafe_allow_html=True)
 
 with c:
     st.markdown("""
-    <div class="vm-card">
-        <b>❤️ Mi música</b>
-        <p>Organiza tus canciones favoritas y descarga tu propia lista.</p>
-    </div>
-    """, unsafe_allow_html=True)
+<div class="vm-card">
+<b>❤️ Mi música</b>
+<p>Organiza tus canciones favoritas y descarga tu propia lista.</p>
+</div>
+""", unsafe_allow_html=True)
 
 
 # ---------------------------------
@@ -260,7 +250,6 @@ integrantes = [
 cols = st.columns(3)
 
 for col, (archivo, nombre) in zip(cols, integrantes):
-
     with col:
         ruta = buscar_imagen(archivo)
 
@@ -272,18 +261,14 @@ for col, (archivo, nombre) in zip(cols, integrantes):
                     ).decode()
 
                 mime = mimetypes.guess_type(str(ruta))[0] or "image/png"
-
                 nombre_seguro = html.escape(nombre)
 
                 st.markdown(f"""
-                <div class="team-card">
-                    <img
-                        class="team-photo"
-                        src="data:{mime};base64,{contenido}"
-                    />
-                    <div class="team-name">{nombre_seguro}</div>
-                </div>
-                """, unsafe_allow_html=True)
+<div class="team-card">
+<img class="team-photo" src="data:{mime};base64,{contenido}" />
+<div class="team-name">{nombre_seguro}</div>
+</div>
+""", unsafe_allow_html=True)
 
             except Exception:
                 st.info(f"No se pudo cargar la foto de {nombre}")

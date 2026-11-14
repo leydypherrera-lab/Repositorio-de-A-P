@@ -25,3 +25,14 @@
 }
 .vm-ok  { color: #4ADE80; font-weight: 700; }
 .vm-mal { color: #F87171; font-weight: 700; }
+[data-testid="stSidebarHeader"] img, 
+[data-testid="stLogo"] img {
+    width: 280px !important; 
+    max-width: none !important;
+    height: auto !important;
+}
+[data-testid="stSidebarHeader"], 
+[data-testid="stLogo"] {
+    height: auto !important;
+    padding: 20px 0 !important;
+}
