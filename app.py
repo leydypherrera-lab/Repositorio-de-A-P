@@ -33,3 +33,15 @@ paginas = [
     st.Page("pages/mi_musica.py", title="Mi música", icon="❤️"),
 ]
 st.navigation(paginas).run()
+
+st.markdown(
+    """
+    <div style="text-align: center; color: #9a8fb8; font-size: 0.85rem; margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
+        © 2026 Leydy y Katherine · Vibra Musical · 
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #8ab4f8; text-decoration: underline;">
+            Creative Commons BY-SA 4.0
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
