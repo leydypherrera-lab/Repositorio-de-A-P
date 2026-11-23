@@ -243,8 +243,7 @@ st.subheader("💜 Nuestro equipo")
 
 integrantes = [
     ("foto_estudiante_1", "Leydy Peñates"),
-    ("foto_estudiante_2", "Katherine Jaramillo"),
-    ("foto_estudiante_3", "Yuliana Giraldo"),
+    ("foto_estudiante_2", "Katherine Jaramillo")
 ]
 
 cols = st.columns(3)

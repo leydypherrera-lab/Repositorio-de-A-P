@@ -10,7 +10,7 @@
 - **Inicio:** resumen del catálogo y el equipo.
 - **Explorar:** usa los filtros de la barra lateral (género, años, búsqueda). Cambia entre la tabla y los gráficos con las pestañas.
 - **Jugar:** elige el modo (género o década), pulsa *Empezar* y responde 10 preguntas. Al final verás tu puntaje.
-- **Mis datos:** elige favoritas del catálogo, agrega canciones propias en el formulario y descarga tu lista en CSV.
+- **Mi Música:** elige favoritas del catálogo, agrega canciones propias en el formulario y descarga tu lista en CSV.
 
 ## Problemas comunes
 | Problema | Solución |
