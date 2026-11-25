@@ -216,7 +216,8 @@ with a:
 <p>Filtra canciones por género, año o artista y descubre gráficos.</p>
 </div>
 """, unsafe_allow_html=True)
-
+    if st.button("Ir a Explorar", width="stretch"):
+        st.switch_page("pages/explorar.py")
 with b:
     st.markdown("""
 <div class="vm-card">
